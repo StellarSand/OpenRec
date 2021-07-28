@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/margin_12"
+    android:paddingBottom="@dimen/margin_10"
+    android:background="@drawable/bottom_sheet_shape"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/bottom_sheet_header"/>
+
+    <TextView
+        android:id="@+id/display_format"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="@dimen/margin_4"
+        android:layout_marginBottom="@dimen/margin_6.5"
+        android:text="@string/format_title"
+        android:textSize="@dimen/text_14"
+        android:layout_gravity="start"
+        android:textColor="?attr/textTitleColor"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_16"
+        android:layout_marginEnd="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginBottom="@dimen/margin_32">
+
+        <ImageButton
+            android:id="@+id/play_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:layout_alignParentStart="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="@drawable/circle_ripple"
+            android:background="@drawable/background_circle"
+            android:backgroundTint="?attr/colorPrimary"
+            android:src="@drawable/avd_pause_to_play"/>
+
+        <SeekBar
+            android:id="@+id/play_recording_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/play_button"
+            android:layout_toStartOf="@id/end_chronometer"
+            android:layout_marginEnd="@dimen/margin_8"/>
+
+        <Chronometer
+            android:id="@+id/end_chronometer"
+            style="@style/MediumBoldText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/play_recording_seekbar"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/margin_4"
+            android:textColor="?colorControlNormal"
+            android:textSize="@dimen/text_14" />
+
+    </RelativeLayout>
+
+</LinearLayout>

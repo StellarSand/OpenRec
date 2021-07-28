@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">OpenRec</string>
+    <string name="app_version">Version: 1.0.0</string>
+
+    <!--MAIN ACTIVITY-->
+    <string name="record">Record</string>
+    <string name="voiceFile">Files</string>
+    <string name="files_title">Title</string>
+    <string name="files_time">Time</string>
+    <string name="no_recordings_here">No Recordings Here</string>
+
+    <!--MAIN ACTIVITY TOOLBAR-->
+    <string name="menu_more">More</string>
+    <string name="search">Search</string>
+    <string name="menu_view">View</string>
+    <string name="menu_view_list">List</string>
+    <string name="menu_view_grid">Grid</string>
+    <string name="menu_sort">Sort</string>
+
+    <!--SETTINGS ACTIVITY-->
+    <string name="settings">Settings</string>
+
+        <!--DEFAULT-->
+        <string name="choose_theme_title">Theme</string>
+        <string name="system_default">System Default</string>
+        <string name="recordings_title">Recordings Format</string>
+        <string name="recordings_subtitle">Format and quality</string>
+        <string name="help_title">Help</string>
+        <string name="help_subtitle">Report an issue</string>
+        <string name="about_title">About</string>
+        <string name="about_subtitle">Version, policy and licenses</string>
+
+        <!--ABOUT-->
+        <string name="authors">Authors</string>
+        <string name="privacy_policy">Privacy Policy</string>
+        <string name="licenses">Licenses</string>
+        <string name="view_on_github">View on GitHub</string>
+
+        <!--RECORDINGS-->
+        <string name="format_title">Format</string>
+        <string name="subtitle">Subtitle</string>
+    <!--SETTINGS ACTIVITY-->
+
+    <!--DIALOGS-->
+        <!--DEFAULT-->
+        <string name="dialog_title">Dialog Title</string>
+        <string name="dialog_subtitle">Dialog Subtitle</string>
+        <string name="dialog_neutral_button">Neutral</string>
+        <string name="dialog_negative_button">Cancel</string>
+        <string name="dialog_positive_button">Done</string>
+
+        <!--ALERT-->
+        <string name="discard_audio_title">Discard Audio</string>
+        <string name="discard_audio_subtitle">Do you want to discard this recording permanently?</string>
+        <string name="discard">Discard</string>
+        <string name="delete_permanently_title">Delete Permanently</string>
+        <string name="delete_permanently_subtitle">Are you sure you want to delete %1$s permanently?</string>
+        <string name="delete">Delete</string>
+    <!--DIALOGS-->
+
+    <!--BOTTOM SHEETS-->
+    <string name="bottom_sheet_title">Bottom Sheet Title</string>
+
+        <!--SAVE RECORDING-->
+        <string name="save_recording">Save Recording</string>
+
+        <!--LONG CLICK-->
+        <string name="rename">Rename</string>
+        <string name="details">Details</string>
+    
+        <!--DETAILS-->
+        <string name="duration_title">Duration</string>
+        <string name="size_title">Size</string>
+        <string name="last_modified_title">Last Modified</string>
+        <string name="ok">OK</string>
+
+        <!--SORT-->
+        <string name="recently_updated">Recently updated</string>
+        <string name="alphabetically">Alphabetically</string>
+        <string name="ascending">Ascending</string>
+        <string name="descending">Descending</string>
+
+        <!--RECORDINGS FORMAT-->
+        <string name="aac">AAC</string>
+        <string name="amr">AMR</string>
+
+        <!--THEME-->
+        <string name="light">Light</string>
+        <string name="dark">Dark</string>
+    
+        <!--AUTHORS-->
+        <string name="the_weird_aquarian">the-weird-aquarian</string>
+        <string name="parveshnarwal">parveshnarwal</string>
+    <!--BOTTOM SHEETS-->
+
+    <!--TOASTS-->
+    <string name="no_browsers">No browsers installed on this device</string>
+    <string name="saved">Saved</string>
+    <string name="failed">Failed</string>
+    <string name="renamed">Renamed</string>
+    <string name="deleted">Deleted</string>
+    <string name="discarded">Discarded</string>
+    <string name="updated">Updated</string>
+    <string name="deleted_permanently">Deleted Permanently</string>
+    <string name="record_permission_denied">Allow the app to use microphone to use this feature</string>
+    <string name="mic_used_by_other_app">Microphone is being used another application</string>
+    <string name="speaker_used_by_other_app">Speaker is being used another application</string>
+
+    <!--SNACKBARS-->
+    <string name="mic_permission_blocked">Microphone access blocked</string>
+    <string name="enable">Enable</string>
+
+</resources>

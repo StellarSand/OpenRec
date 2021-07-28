@@ -1,0 +1,5 @@
+rootProject.name = "OpenRec"
+include ':app'
+include ':preferences'
+include ':models'
+include ':utility'

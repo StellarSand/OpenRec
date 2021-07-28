@@ -1,0 +1,72 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="128"
+            android:viewportHeight="128">
+            <group
+                android:name="parts"
+                android:pivotX="64"
+                android:pivotY="64"
+                android:rotation="90"
+                android:scaleX="1.5"
+                android:scaleY="1.5">
+
+                <group android:name="upper_part">
+                    <path
+                        android:name="upper_part"
+                        android:fillColor="@android:color/white"
+                        android:pathData="M 32 40 L 32 56  L 96 56 L 96 40 Z"
+                        android:strokeLineCap="butt"
+                        android:strokeLineJoin="miter"
+                        android:strokeMiterLimit="10" />
+                </group>
+                <group android:name="bottom_part">
+                    <path
+                        android:name="bottom_part"
+                        android:fillColor="@android:color/white"
+                        android:pathData="M 32 88 L 32 72 L 96 72 L 96 88 Z"
+                        android:strokeLineCap="butt"
+                        android:strokeLineJoin="miter"
+                        android:strokeMiterLimit="10" />
+                </group>
+
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="parts">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="300"
+                android:interpolator="@android:anim/decelerate_interpolator"
+                android:propertyName="rotation"
+                android:valueFrom="-90"
+                android:valueTo="0"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+
+    <target android:name="upper_part">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="300"
+                android:interpolator="@android:anim/decelerate_interpolator"                android:propertyName="pathData"
+                android:valueFrom="M 32 40 L 32 56  L 96 56 L 96 40 Z"
+                android:valueTo="M 44 32 L 44 64 L 100 64 L 100 64 Z"
+                android:valueType="pathType" />
+        </aapt:attr>
+    </target>
+
+    <target android:name="bottom_part">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="300"
+                android:interpolator="@android:anim/decelerate_interpolator"                android:propertyName="pathData"
+                android:valueFrom="M 32 88 L 32 72 L 96 72 L 96 88 Z"
+                android:valueTo="M 44 96 L 44 64 L 100 64 L 100 64 Z"
+                android:valueType="pathType" />
+        </aapt:attr>
+    </target>
+</animated-vector>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColor">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/backgroundColor"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="?attr/backgroundColor">
+
+            <RadioGroup
+                android:id="@+id/fragments_radiogroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                style="@style/MediumBoldText">
+
+                <RadioButton
+                    android:id="@+id/radio_record_fragment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_margin="@dimen/margin_4"
+                    android:background="@drawable/radio_button_selector"
+                    android:button="@android:color/transparent"
+                    android:paddingStart="@dimen/margin_16"
+                    android:paddingEnd="@dimen/margin_16"
+                    android:text="@string/record"
+                    android:textSize="@dimen/text_18"
+                    android:textColor="@color/radio_button_text_color_state"
+                    style="@style/MediumBoldText"/>
+
+                <RadioButton
+                    android:id="@+id/radio_files_fragment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:paddingStart="@dimen/margin_16"
+                    android:paddingEnd="@dimen/margin_16"
+                    android:layout_margin="@dimen/margin_4"
+                    android:button="@android:color/transparent"
+                    android:background="@drawable/radio_button_selector"
+                    android:text="@string/voiceFile"
+                    android:textSize="@dimen/text_18"
+                    android:textColor="@color/radio_button_text_color_state"
+                    style="@style/MediumBoldText"/>
+
+            </RadioGroup>
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/activity_host_fragment"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

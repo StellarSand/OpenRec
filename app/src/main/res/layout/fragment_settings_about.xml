@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription"
+    android:id="@+id/fragment_settings_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarThumbVertical="@drawable/scrollbar_thumb"
+    android:background="?attr/backgroundColor"
+    tools:context=".fragments.settings.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:src="@drawable/app_icon"
+                android:layout_marginTop="@dimen/margin_16"
+                android:layout_marginBottom="@dimen/margin_8"
+                android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/margin_2.5"
+                    android:text="@string/app_name"
+                    android:textColor="?colorControlNormal"
+                    android:textSize="@dimen/text_18"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/margin_16"
+                    android:paddingStart="@dimen/margin_8"
+                    android:paddingEnd="@dimen/margin_8"
+                    android:text="@string/app_version"
+                    android:textColor="?colorControlNormal"
+                    style="@style/MediumBoldText"
+                    android:textSize="@dimen/text_16" />
+
+        <TextView
+            android:id="@+id/authors_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_2.5"
+            android:layout_marginBottom="@dimen/margin_2.5"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:paddingStart="@dimen/margin_20"
+            android:paddingTop="@dimen/margin_16"
+            android:paddingEnd="@dimen/margin_12"
+            android:paddingBottom="@dimen/margin_16"
+            android:text="@string/authors"
+            android:textAlignment="viewStart"
+            android:textColor="?attr/textTitleColor"
+            android:textSize="@dimen/text_16"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/privacy_policy_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_2.5"
+            android:layout_marginBottom="@dimen/margin_2.5"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:paddingStart="@dimen/margin_20"
+            android:paddingTop="@dimen/margin_16"
+            android:paddingEnd="@dimen/margin_12"
+            android:paddingBottom="@dimen/margin_16"
+            android:text="@string/privacy_policy"
+            android:textAlignment="viewStart"
+            android:textColor="?attr/textTitleColor"
+            android:textSize="@dimen/text_16"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/licenses_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_2.5"
+            android:layout_marginBottom="@dimen/margin_2.5"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:paddingStart="@dimen/margin_20"
+            android:paddingTop="@dimen/margin_16"
+            android:paddingEnd="@dimen/margin_12"
+            android:paddingBottom="@dimen/margin_16"
+            android:text="@string/licenses"
+            android:textAlignment="viewStart"
+            android:textColor="?attr/textTitleColor"
+            android:textSize="@dimen/text_16"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/view_on_git_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_2.5"
+            android:layout_marginBottom="@dimen/margin_2.5"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:paddingStart="@dimen/margin_20"
+            android:paddingTop="@dimen/margin_16"
+            android:paddingEnd="@dimen/margin_12"
+            android:paddingBottom="@dimen/margin_16"
+            android:text="@string/view_on_github"
+            android:textAlignment="viewStart"
+            android:textColor="?attr/textTitleColor"
+            android:textSize="@dimen/text_16"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+</ScrollView>

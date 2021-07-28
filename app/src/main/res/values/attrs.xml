@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="style">
+        <attr name="colorPrimary" format="color"/>
+        <attr name="colorAccent" format="color"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="filesToolbarColor" format="color"/>
+        <attr name="textTitleColor" format="color"/>
+        <attr name="hintColor" format="color"/>
+        <attr name="dialogColor" format="color"/>
+        <attr name="switchTrackColor" format="color"/>
+        <attr name="DisabledColor" format="color"/>
+        <attr name="EnabledColor" format="color"/>
+        <attr name="cardStrokeColor" format="color"/>
+        <attr name="rippleColor" format="color"/>
+        <attr name="recordButtonsColor" format="color"/>
+        <attr name="recordIconsColor" format="color"/>
+        <attr name="pulseAnim1" format="color"/>
+        <attr name="pulseAnim2" format="color"/>
+        <attr name="pulseAnim3" format="color"/>
+        <attr name="radioBackgroundColor" format="color"/>
+        <attr name="scrollbarColor" format="color"/>
+        <attr name="dividerColor" format="color"/>
+    </declare-styleable>
+</resources>

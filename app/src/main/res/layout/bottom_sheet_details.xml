@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/margin_12"
+    android:paddingBottom="@dimen/margin_8"
+    android:background="@drawable/bottom_sheet_shape"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/bottom_sheet_header"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_marginBottom="@dimen/margin_2.5"
+        android:paddingTop="@dimen/margin_4"
+        android:paddingBottom="@dimen/margin_4"
+        android:paddingStart="25dp"
+        android:paddingEnd="@dimen/margin_12"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_2.5"
+            android:text="@string/format_title"
+            android:textStyle="normal"
+            android:textSize="@dimen/text_16"
+            android:textColor="?attr/textTitleColor"/>
+
+        <TextView
+            android:id="@+id/details_format_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_2.5"
+            android:text="@string/subtitle"
+            android:textStyle="normal"
+            android:textSize="@dimen/text_14"
+            android:textColor="?colorControlNormal"/>
+
+    </LinearLayout>
+
+    <!--===============================================-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_4"
+        android:paddingTop="@dimen/margin_4"
+        android:paddingBottom="@dimen/margin_4"
+        android:paddingStart="25dp"
+        android:paddingEnd="@dimen/margin_12"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_2.5"
+            android:text="@string/duration_title"
+            android:textStyle="normal"
+            android:textSize="@dimen/text_16"
+            android:textColor="?attr/textTitleColor"/>
+
+        <Chronometer
+            android:id="@+id/duration_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_2.5"
+            android:text="@string/subtitle"
+            android:textStyle="normal"
+            android:textSize="@dimen/text_14"
+            android:textColor="?colorControlNormal"/>
+
+    </LinearLayout>
+
+    <!--===============================================-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_4"
+        android:paddingTop="@dimen/margin_4"
+        android:paddingBottom="@dimen/margin_4"
+        android:paddingStart="25dp"
+        android:paddingEnd="@dimen/margin_12"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_2.5"
+            android:text="@string/size_title"
+            android:textStyle="normal"
+            android:textSize="@dimen/text_16"
+            android:textColor="?attr/textTitleColor"/>
+
+        <TextView
+            android:id="@+id/size_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_2.5"
+            android:text="@string/subtitle"
+            android:textStyle="normal"
+            android:textSize="@dimen/text_14"
+            android:textColor="?colorControlNormal"/>
+
+    </LinearLayout>
+
+    <!--===============================================-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_4"
+        android:paddingTop="@dimen/margin_4"
+        android:paddingBottom="@dimen/margin_4"
+        android:paddingStart="25dp"
+        android:paddingEnd="@dimen/margin_12"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_2.5"
+            android:text="@string/last_modified_title"
+            android:textStyle="normal"
+            android:textSize="@dimen/text_16"
+            android:textColor="?attr/textTitleColor"/>
+
+        <TextView
+            android:id="@+id/last_modified_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_2.5"
+            android:text="@string/subtitle"
+            android:textStyle="normal"
+            android:textSize="@dimen/text_14"
+            android:textColor="?colorControlNormal"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/dialog_footer"/>
+
+</LinearLayout>

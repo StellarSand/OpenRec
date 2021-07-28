@@ -1,0 +1,81 @@
+<resources>
+
+    <!--PARENT APP THEME-->
+    <style name="Base.Theme.OpenRec" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="snackbarStyle">@style/SnackBarStyle</item>
+    </style>
+
+    <!--BASE APP THEME-->
+    <style name="BaseAppTheme" parent="Base.Theme.OpenRec">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/backgroundColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">@color/backgroundColor</item>
+        <item name="filesToolbarColor">@color/filesToolbarColor</item>
+        <item name="textTitleColor">@color/textTitleColor</item>
+        <item name="hintColor">@color/hintColor</item>
+        <item name="cardStrokeColor">@color/cardStrokeColor</item>
+        <item name="dialogColor">@color/dialogColor</item>
+        <item name="rippleColor">@color/rippleColor</item>
+        <item name="switchTrackColor">@color/switchTrackColor</item>
+        <item name="DisabledColor">@color/disabledColor</item>
+        <item name="EnabledColor">@color/enabledColor</item>
+        <item name="recordButtonsColor">@color/recordButtonsColor</item>
+        <item name="recordIconsColor">@color/recordIconsColor</item>
+        <item name="pulseAnim1">@color/pulseAnim1</item>
+        <item name="pulseAnim2">@color/pulseAnim2</item>
+        <item name="pulseAnim3">@color/pulseAnim3</item>
+        <item name="radioBackgroundColor">@color/radioBackgroundColor</item>
+        <item name="scrollbarColor">@color/scrollbarColor</item>
+        <item name="dividerColor">@color/dividerColor</item>
+    </style>
+
+    <!--DIALOG WIDTH-->
+    <style name="DialogTheme" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:windowMinWidthMinor">87%</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+    </style>
+
+    <!--DIALOG ANIMATION-->
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/fade_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_scale_out</item>
+    </style>
+
+    <!--MEDIUM BOLD TEXT STYLE-->
+    <style name="MediumBoldText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="fontFamily">@font/open_sans_medium</item>
+    </style>
+
+    <!--FILES TOOLBAR TEXT STYLE-->
+    <style name="FilesToolbarText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/text_17</item>
+    </style>
+
+    <!--BASE BOTTOM SHEET STYLE-->
+    <style name="BaseBottomSheetTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <!--BOTTOM SHEET ANIMATION-->
+    <style name="BottomSheetAnimation">
+        <item name="android:windowEnterAnimation">@anim/fade_in_slide_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_slide_to_bottom</item>
+    </style>
+
+    <!--MAKE ROOT VIEW OF BOTTOM SHEET TRANSPARENT FOR CUSTOM VIEW TO SHOW PROPERLY-->
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!--SNACKBAR BACKGROUND-->
+    <style name="SnackBarStyle" parent="Widget.MaterialComponents.Snackbar">
+        <item name="backgroundTint">@color/snackbarBackgroundColor</item>
+    </style>
+
+</resources>

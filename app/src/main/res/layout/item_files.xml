@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription"
+    android:id="@+id/item_files"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margin_4"
+    android:layout_marginStart="@dimen/margin_8"
+    android:layout_marginEnd="@dimen/margin_8"
+    android:layout_marginTop="@dimen/margin_4"
+    android:background="@drawable/card_shape_with_ripple"
+    android:padding="@dimen/margin_8">
+
+    <ImageView
+        android:id="@+id/recordings_play_icon"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:padding="@dimen/margin_10"
+        android:layout_marginEnd="@dimen/margin_4"
+        android:background="@drawable/background_circle"
+        android:backgroundTint="?attr/colorPrimary"
+        android:src="@drawable/play_recording"/>
+
+    <TextView
+        android:id="@+id/files_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:text="@string/files_title"
+        android:layout_marginTop="@dimen/margin_2.5"
+        android:layout_marginBottom="1.5dp"
+        android:layout_marginStart="@dimen/margin_8"
+        android:layout_toEndOf="@id/recordings_play_icon"
+        android:textColor="?attr/textTitleColor"
+        android:textSize="@dimen/text_17"
+        style="@style/MediumBoldText"/>
+
+    <TextView
+        android:id="@+id/files_date_time"
+        android:layout_below="@+id/files_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/colorControlNormal"
+        android:text="@string/files_time"
+        android:layout_marginStart="@dimen/margin_8"
+        android:layout_marginEnd="@dimen/margin_20"
+        android:layout_toEndOf="@id/recordings_play_icon"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="@dimen/margin_2.5"
+        android:layout_marginBottom="@dimen/margin_2.5"
+        android:textSize="@dimen/text_13"
+        android:textStyle="normal" />
+
+</RelativeLayout>
