@@ -1,6 +1,6 @@
 # OpenRec
 
-An open source, privacy respecting, material designed, offline audio recording app.
+A minimal, open source, offline audio recording app.
 
 
 
@@ -26,7 +26,7 @@ An open source, privacy respecting, material designed, offline audio recording a
 
 
 ## Download
-
+**[Direct Download](https://github.com/the-weird-aquarian/OpenRec/releases/download/v1.0.0/OpenRec_v1.0.0.apk)**
 
 
 
