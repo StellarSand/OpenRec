@@ -91,10 +91,10 @@ public class SettingsDefaultFragment extends Fragment {
 
         if (preferenceManager.getInt(FORMAT_PREF)==R.id.option_default
                 || preferenceManager.getInt(FORMAT_PREF)==0){
-            formatSubtitle.setText(R.string.aac);
+            formatSubtitle.setText(R.string.amr);
         }
         else if (preferenceManager.getInt(FORMAT_PREF)==R.id.option1){
-            formatSubtitle.setText(R.string.amr);
+            formatSubtitle.setText(R.string.aac);
         }
 
         // HELP
@@ -124,7 +124,7 @@ public class SettingsDefaultFragment extends Fragment {
                                 .commit());
     }
 
-    // SHOW THEME BOTTOM SHEET
+    // THEME BOTTOM SHEET
     @SuppressLint("NonConstantResourceId")
     private void ThemeBottomSheet(){
         bottomSheetDialog = new BottomSheetDialog(requireContext(), R.style.CustomBottomSheetTheme);
@@ -218,8 +218,8 @@ public class SettingsDefaultFragment extends Fragment {
         // TITLE
         ((TextView)view.findViewById(R.id.bottom_sheet_title)).setText(R.string.format_title);
 
-        ((TextView)view.findViewById(R.id.option_default)).setText(R.string.aac);
-        ((TextView)view.findViewById(R.id.option1)).setText(R.string.amr);
+        ((TextView)view.findViewById(R.id.option_default)).setText(R.string.amr);
+        ((TextView)view.findViewById(R.id.option1)).setText(R.string.aac);
 
         // POSITIVE BUTTON
         positiveButton.setText(R.string.dialog_negative_button);
@@ -231,11 +231,11 @@ public class SettingsDefaultFragment extends Fragment {
                 .setOnCheckedChangeListener((radioGroup, checkedId) -> {
                     switch (checkedId){
                         case R.id.option_default:
-                            formatSubtitle.setText(R.string.aac);
+                            formatSubtitle.setText(R.string.amr);
                             break;
 
                         case R.id.option1:
-                            formatSubtitle.setText(R.string.amr);
+                            formatSubtitle.setText(R.string.aac);
                             break;
                     }
                     preferenceManager.setInt(FORMAT_PREF, checkedId);

@@ -240,15 +240,15 @@ public class RecordFragment extends Fragment {
 
             // SET AUDIO SOURCE, FORMAT AND ENCODER
             recorder.setAudioSource(MediaRecorder.AudioSource.MIC);
-            recorder.setOutputFormat(MediaRecorder.OutputFormat.AAC_ADTS);
-            recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
+            recorder.setOutputFormat(MediaRecorder.OutputFormat.AMR_WB);
+            recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_WB);
         }
         else {
 
             // SET AUDIO SOURCE, FORMAT AND ENCODER
             recorder.setAudioSource(MediaRecorder.AudioSource.MIC);
-            recorder.setOutputFormat(MediaRecorder.OutputFormat.AMR_WB);
-            recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_WB);
+            recorder.setOutputFormat(MediaRecorder.OutputFormat.AAC_ADTS);
+            recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AAC);
         }
 
         // SAVE AUDIO NOTE TEMPORARILY IN LOCATION
@@ -417,12 +417,12 @@ public class RecordFragment extends Fragment {
 
                 newFileName = new File(appDir
                         + recordTitleInput.getText()
-                        + ".aac");
+                        + ".amr");
             }
             else {
                 newFileName = new File(appDir
                         + recordTitleInput.getText()
-                        + ".amr");
+                        + ".aac");
             }
 
             boolean saved=new File(tempFileName).renameTo(newFileName);

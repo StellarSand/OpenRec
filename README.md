@@ -2,8 +2,20 @@
 
 An open source, privacy respecting, material designed, offline audio recording app.
 
-- Works on Android 6.0 and above devices.
-- Supports both light and dark theme.
+
+
+## Features
+- Fully open source
+- Material design
+- Offline
+- No collection of personal data
+- Works on Android 6.0 and above devices
+- Supports both light and dark theme
+- No ads
+
+
+
+## Screenshots
 
 ​
 
