@@ -8,18 +8,25 @@ An open source, privacy respecting, material designed, offline audio recording a
 - Fully open source
 - Material design
 - Offline
-- No collection of personal data
 - Works on Android 6.0 and above devices
 - Supports both light and dark theme
 - No ads
+- No collection of personal data
 
 
 
 ## Screenshots
 
-​
+<img src="/Screenshots/1.png" width="200"/>  <img src="/Screenshots/2.png" width="200"/>
+
+<img src="/Screenshots/3.png" width="200"/>  <img src="/Screenshots/4.png" width="200"/>
+
+<img src="/Screenshots/5.png" width="200"/>  <img src="/Screenshots/6.png" width="200"/>
+
+
 
 ## Download
+
 
 
 
