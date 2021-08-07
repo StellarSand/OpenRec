@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">OpenRec</string>
+    <string name="app_version">Version: 1.0.0</string>
+
+    <!--MAIN ACTIVITY-->
+    <string name="record">Aufnehmen</string>
+    <string name="voiceFile">Dateien</string>
+    <string name="files_title">Titel</string>
+    <string name="files_time">Zeit</string>
+    <string name="no_recordings_here">Keine Aufnahmen vorhanden</string>
+
+    <!--MAIN ACTIVITY TOOLBAR-->
+    <string name="menu_more">Mehr</string>
+    <string name="search">Suchen</string>
+    <string name="menu_view">Ansicht</string>
+    <string name="menu_view_list">Liste</string>
+    <string name="menu_view_grid">Raster</string>
+    <string name="menu_sort">Sortieren</string>
+
+    <!--SETTINGS ACTIVITY-->
+    <string name="settings">Einstellungen</string>
+
+        <!--DEFAULT-->
+        <string name="choose_theme_title">Thema</string>
+        <string name="system_default">Systemstandard</string>
+        <string name="recordings_title">Aufnahmeformat</string>
+        <string name="recordings_subtitle">Format und Qualität</string>
+        <string name="help_title">Hilfe</string>
+        <string name="help_subtitle">Fehler melden</string>
+        <string name="about_title">Über</string>
+        <string name="about_subtitle">Version, Bestimmungen und Lizenzen</string>
+
+        <!--ABOUT-->
+        <string name="authors">Autoren</string>
+        <string name="privacy_policy">Datenschutz-Bestimmungen</string>
+        <string name="licenses">Lizenzen</string>
+        <string name="view_on_github">Auf GitHub anzeigen</string>
+
+        <!--RECORDINGS-->
+        <string name="format_title">Format</string>
+        <string name="subtitle">Untertitel</string>
+    <!--SETTINGS ACTIVITY-->
+
+    <!--DIALOGS-->
+        <!--DEFAULT-->
+        <string name="dialog_title">Titel</string>
+        <string name="dialog_subtitle">Untertitel</string>
+        <string name="dialog_neutral_button">Neutral</string>
+        <string name="dialog_negative_button">Abbrechen</string>
+        <string name="dialog_positive_button">Fertig</string>
+
+        <!--ALERT-->
+        <string name="discard_audio_title">Aufnahme verwerfen</string>
+        <string name="discard_audio_subtitle">Diese Aufnahme verwerfen?</string>
+        <string name="discard">Verwerfen</string>
+        <string name="delete_permanently_title">Dauerhaft löschen</string>
+        <string name="delete_permanently_subtitle">Sind Sie sicher, dass Sie %1$s dauerhaft löschen möchten?</string>
+        <string name="delete">Löschen</string>
+    <!--DIALOGS-->
+
+    <!--BOTTOM SHEETS-->
+    <string name="bottom_sheet_title">Blattitel</string>
+
+        <!--SAVE RECORDING-->
+        <string name="save_recording">Aufnahme speichern</string>
+
+        <!--LONG CLICK-->
+        <string name="rename">Umbenennen</string>
+        <string name="details">Details</string>
+    
+        <!--DETAILS-->
+        <string name="duration_title">Dauer</string>
+        <string name="size_title">Grüße</string>
+        <string name="last_modified_title">Letzte Änderung</string>
+        <string name="ok">OK</string>
+
+        <!--SORT-->
+        <string name="recently_updated">Zuletzt aktualisiert</string>
+        <string name="alphabetically">Alphabetisch</string>
+        <string name="ascending">Aufsteigend</string>
+        <string name="descending">Absteigend</string>
+
+        <!--RECORDINGS FORMAT-->
+        <string name="aac">AAC</string>
+        <string name="amr">AMR</string>
+
+        <!--THEME-->
+        <string name="light">Hell</string>
+        <string name="dark">Dunkel</string>
+    
+        <!--AUTHORS-->
+        <string name="the_weird_aquarian">the-weird-aquarian</string>
+        <string name="parveshnarwal">parveshnarwal</string>
+    <!--BOTTOM SHEETS-->
+
+    <!--TOASTS-->
+    <string name="no_browsers">Kein Browser auf diesem Gerät installiert</string>
+    <string name="saved">Gespeichert</string>
+    <string name="failed">Fehlgeschlagen</string>
+    <string name="renamed">Umbenannt</string>
+    <string name="deleted">Gelöscht</string>
+    <string name="discarded">Verworfen</string>
+    <string name="updated">Aktualisiert</string>
+    <string name="deleted_permanently">Dauerhaft Gelöscht</string>
+    <string name="record_permission_denied">Der App erlauben für diese Funktion das Mikrofon zu verwenden</string>
+    <string name="mic_used_by_other_app">Mikrofon wird von anderer Anwendung verwendet</string>
+    <string name="speaker_used_by_other_app">Lautsprecher wird von anderer Anwendung verwendet</string>
+
+    <!--SNACKBARS-->
+    <string name="mic_permission_blocked">Zugriff auf Mikrofon blockiert</string>
+    <string name="enable">Aktivieren</string>
+
+</resources>
