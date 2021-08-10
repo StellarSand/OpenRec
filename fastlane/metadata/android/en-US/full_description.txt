@@ -1,0 +1,10 @@
+A minimal, open source, offline audio recording app.
+
+Features:
+- Fully open source
+- Material design
+- Offline
+- Works on Android 6.0 and above devices
+- Supports both light and dark theme
+- No ads
+- No collection of personal data
