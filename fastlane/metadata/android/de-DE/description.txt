@@ -1,0 +1,10 @@
+Eine minimale, quelloffene und offline funktionierte App für die Audioaufnahme.
+
+Merkmale:
+- vollständig Quelloffen
+- Material Design
+- Offline
+- Funktioniert auf Geräten mit Android 6.0 und neuer
+- Unterstützt das helle und Dunkle Thema
+- Keine Werbung
+- Keine Sammlung persönlicher Daten
