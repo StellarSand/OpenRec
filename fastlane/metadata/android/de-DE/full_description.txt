@@ -1,6 +1,7 @@
 Eine minimale, quelloffene und offline funktionierte App für die Audioaufnahme.
 
 Merkmale:
+
 - vollständig Quelloffen
 - Material Design
 - Offline
