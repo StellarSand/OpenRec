@@ -1,6 +1,7 @@
 A minimal, open source, offline audio recording app.
 
 Features:
+
 - Fully open source
 - Material design
 - Offline
