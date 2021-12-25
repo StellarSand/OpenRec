@@ -26,7 +26,9 @@ A minimal, open source, offline audio recording app.
 
 
 ## Download
-**[Direct Download](https://github.com/the-weird-aquarian/OpenRec/releases/download/v1.0.0/OpenRec_v1.0.0.apk)**
+[<img alt="Get it on F-Droid" src="https://f-droid.org/badge/get-it-on.png" height="80">](https://apt.izzysoft.de/fdroid/index/apk/com.openrec)
+
+Or download directly from [here](https://github.com/the-weird-aquarian/OpenRec/releases/download/v1.0.0/OpenRec_v1.0.0.apk).
 
 
 
