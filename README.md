@@ -4,6 +4,11 @@ A minimal, open source, offline audio recording app.
 
 
 
+## Important Notice
+It was recently brought to our attention by [vdbhb59](https://github.com/vdbhb59) that someone uploaded this app on Play Store without our permission. We highly recommend you **NOT** to install the Play Store version since it's full of ads and it's not open source, therefore there's no way verifying whether it has some malware which steals user data or even secretly listens in to your conversations. If however, you do choose to install it from Play Store, you shall do it at your own risk and we will not be held responsible for any damage caused by that.
+
+
+
 ## Features
 - Fully open source
 - Material design
